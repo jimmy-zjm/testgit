@@ -3,7 +3,7 @@ sql: select * from table where id IN (3,6,9,1,2,5,8,7) order by field(id,3,6,9,1
 
 //直接传递form表单内的数据
 $('#form01').serializeArray()
-1111111
+
 
 //判断是否是AJAX请求
 isset($_SERVER['HTTP_X_REQUESTED_WITH'])
